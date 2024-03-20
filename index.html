@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Encuentra tu SuperHero!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav id="navlindo" class="container-fluid bg-dark fixed-top">
+<img src="assets/img/sh2.jpg" alt="" class="text-center">
+    </nav>
+    <section id="hero-section">
+      <img src="assets/img/sh1.jpg" alt="" id="superhero" class="img-fluid">
+      <h3 class="mt-5">Encuentra tu super héroe</h3>
+      <p>Desplaza el scroll-lock para ver los resultados de tu búsqueda</p>
+    </section>
+    <form id="form-buscar" action="">
+      <input id="input-buscar" type="text">
+      <button id="btn-buscar" type="submit">Buscar</button>
+    </form>
+  </header>
+  <main>
+      <section id="contenido" class="container"> 
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+        <div id="resultado" class="col"></div>
+      <div id="grafico" class="col"></div>
+    </div>
+      </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.canvasjs.com/ga/jquery.canvasjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script> 
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
